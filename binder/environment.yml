@@ -3,7 +3,7 @@ channels:
 - bioconda
 dependencies:
 - python=3.9
-- lammps=2021.07.30
+- lammps =2021.02.10=*openmpi*_4
 - pyiron_atomistics=0.2.29
 - pyiron_base=0.4.2
 - jupyter_client=7.0.6
@@ -13,3 +13,4 @@ dependencies:
 - mscorefonts=0.0.1
 - snakemake=6.10.0
 - numpy=1.21.4
+- seaborn =0.11.1
